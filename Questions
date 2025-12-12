@@ -102,3 +102,43 @@ Assume times are integers in [0, 24].
 Consolidated Shifts:
 [9,16]
 
+***********************************
+5.You are designing a browser tab manager that can open and close tabs:
+
+The browser can have at most N tabs open at a time.
+
+If a new tab is opened when the limit is reached, the least recently used tab is closed automatically.
+
+If a tab is already open and is accessed again, it becomes the most recently used.
+
+Your program should support:
+
+OPEN <URL> → Open a tab
+
+CLOSE <URL> → Close a tab
+
+LIST → List all currently open tabs from most recent to least recent
+
+First line: N (maximum number of tabs)
+Next lines: Commands (OPEN, CLOSE, LIST)
+Command ends with "EXIT"
+
+
+3
+OPEN google.com
+OPEN facebook.com
+OPEN youtube.com
+LIST
+OPEN amazon.com
+LIST
+CLOSE facebook.com
+LIST
+EXIT
+
+
+Currently Open Tabs:
+youtube.com facebook.com google.com
+Currently Open Tabs:
+amazon.com youtube.com facebook.com
+Currently Open Tabs:
+amazon.com youtube.com
