@@ -1,0 +1,34 @@
+1.Stock Price Rise
+
+Given stock prices over time, for each price find the next price that is higher.
+If no such future price is higher, return -1.
+
+
+2.A customer’s VM usage is recorded as billing entries. Each entry tells when the machine started, when it stopped, and the cost per minute for that time.
+You must calculate the total cost.
+If any log has invalid times (end < start), ignore it.
+You are given this class:
+class BillingEntry {
+    int start; 
+    int end;
+    double costPerMin;
+}
+Write a function to compute the total cost.
+Input
+
+Customer has 2 logs:
+
+Log	Start	End	Cost per Min
+1	10	20	2.0
+2	30	40	1.5
+Working
+
+Log 1 → duration = 20–10 = 10 mins → cost = 10 × 2.0 = 20
+
+Log 2 → duration = 40–30 = 10 mins → cost = 10 × 1.5 = 15
+
+Output
+Total Cost = 35.0
+
+
+3.
