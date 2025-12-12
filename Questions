@@ -31,4 +31,47 @@ Output
 Total Cost = 35.0
 
 
-3.
+3.You are building a smart parking management system. Each car entering the parking lot is logged with:
+
+entryTime (in minutes from the start of the day)
+
+exitTime (in minutes from the start of the day)
+
+Your program must:
+
+Calculate the peak occupancy (maximum number of cars in the parking lot at the same time).
+
+Calculate the parking cost for each car:
+
+First 2 hours: $5 per hour
+
+After 2 hours: $3 per hour for remaining duration
+
+Notes:
+
+Ignore invalid entries where exitTime < entryTime.
+
+Duration is calculated as (exitTime - entryTime) in minutes and converted to hours.
+
+Round costs to 2 decimal places.
+
+
+3
+0 120
+30 150
+60 180
+
+
+Peak Occupancy: 3
+Car 1 Parking Cost: $10.00
+Car 2 Parking Cost: $10.00
+Car 3 Parking Cost: $10.00
+
+
+Explanation:
+
+Timeline occupancy:
+
+0 → 1, 30 → 2, 60 → 3 (peak), 120 → 2, 150 → 1, 180 → 0
+
+Each car parked for 120 min (2 hours) → $5 × 2 = $10
