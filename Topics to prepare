@@ -1,0 +1,86 @@
+
+Aptitude /Reasoning
+
+*************************************************
+
+A. Core Java
+
+OOP Concepts: Encapsulation, Abstraction, Inheritance, Polymorphism
+
+Collections Framework: List, Set, Map, Queue, Iterator
+
+Exception Handling: try/catch/finally, custom exceptions
+
+Java 8+ Features: Lambda, Streams, Optional, Method references
+
+B. Advanced Java
+
+Multithreading: Thread, Runnable, synchronized, ExecutorService
+
+Streams API: map, filter, reduce, collect
+
+File I/O: IO & NIO
+
+Socket Programming: TCP/UDP
+
+C. Spring Core
+
+Beans & Lifecycle
+
+Dependency Injection (DI): Constructor/Setter
+
+AOP: @Aspect, @Before, @After
+
+Annotation-based configuration: @Component, @Bean, @Autowired
+
+D. JavaScript
+
+Variables: var, let, const
+
+Data types, Operators
+
+Arrays & Objects
+
+DOM Manipulation
+
+Fetch API & AJAX
+
+JSON Handling
+
+E. Spring WebFlux
+
+Reactive Programming Basics
+
+Mono / Flux
+
+Reactive REST APIs
+
+Backpressure & Event-loop
+
+
+
+*************************************************
+
+
+Topic-wise Interview Questions & Answers
+
+Core Java Q&A
+
+OOP principles, ArrayList vs LinkedList, HashMap internals, Exception handling, Java 8 features
+
+Advanced Java Q&A
+
+Multithreading, synchronized, Streams API, File I/O, Socket programming
+
+Spring Core Q&A
+
+DI, AOP, Bean annotations, differences between @Component/@Bean
+
+JavaScript Q&A
+
+var/let/const, == vs ===, Fetch API, JSON parsing
+
+Spring WebFlux Q&A
+
+Reactive programming, Mono/Flux, WebFlux vs MVC
+
